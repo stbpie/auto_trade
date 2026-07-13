@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+autoasset/
+
+# Local secrets and credentials
+.env
+.env.*
+*.key
+*.pem
+config.local.*
+
+# Collected market data
+# Keep generated/raw data out of git unless you intentionally decide to version it.
+data/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
